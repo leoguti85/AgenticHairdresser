@@ -9,7 +9,6 @@ import whisper
 
 class AudioInterface:
     def __init__(self):
-        self.client_openai = OpenAI(api_key=os.environ["OPENAI_KEY"])
         self.client_elabs = ElevenLabs(api_key=os.environ["ELEVENLABS_API_KEY"])
 
         self.model = whisper.load_model("turbo", device="cuda")
