@@ -32,7 +32,7 @@ class AudioInterface:
     def speak(self, text):
         audio = self.client_elabs.generate(
             text=text,
-            voice="Paul",
+            voice="Laura",
             model="eleven_multilingual_v2",  # eleven_turbo_v2_5
             stream=True,
         )
