@@ -1,14 +1,14 @@
 from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
-import os.path
+import os
 import pickle
 import datetime
 
 
 # If modifying these SCOPES, delete the file token.pickle.
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
-AWESOME_id = "c2f4de6baa122a83f98cb37963c3e12b2f81f80a8f008c482920266b3431fe38@group.calendar.google.com"
+AWESOME_id = os.environ["GOOGLE_ID"]
 
 
 def get_credentials():
