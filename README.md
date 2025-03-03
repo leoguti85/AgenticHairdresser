@@ -1,5 +1,5 @@
 # Agentic Hairdresser
-
+![architecture](docs/Agentic-workflow-hairdresser.png)
 ## Overview
 
 Agentic Hairdresser is an AI-powered agentic chatbot that assists customers in booking appointments at a hair salon. The agent interacts dynamically with users to find and confirm available time slots using external tools and APIs.
@@ -17,7 +17,6 @@ Agentic Hairdresser is an AI-powered agentic chatbot that assists customers in b
 * **Speech Support:** Converts speech to text and vice versa for a natural user experience.
 
 ## Architecture
-![architecture](docs/Agentic-workflow-hairdresser.png)
 
 * **Speech-to-Text Interface:** Utilizes the SpeechRecognition Python package and a locally deployed OpenAI-Whisper model for audio transcription.
 
