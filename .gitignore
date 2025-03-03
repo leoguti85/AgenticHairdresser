@@ -3,4 +3,5 @@ src/.env
 src/google_tools/credentials.json
 src/google_tools/token.pickle
 __pycache__/
+token.pickle
 
