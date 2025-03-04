@@ -2,8 +2,6 @@ import os
 import speech_recognition as sr
 from elevenlabs.client import ElevenLabs
 from elevenlabs import play
-import numpy as np
-from openai import OpenAI
 import whisper
 
 
