@@ -47,18 +47,16 @@ It can provide additional details on services and pricing. The response is synth
 To run the agent, ensure you have:
 
 * Python installed
-
 * API keys for Antrophic Claude Sonnet and Eleven Labs
 
-* Required dependencies from requirements.txt
 
-Run the agent with:
+Build the Docker image:
 `
-./run.sh
+docker buildx build -f Dockerfile -t awesome-hairdresser-app .
 `
-or,
+run it:
 `
-python src/app.py
+docker run --rm --gpus all  awesome-hairdresser-app
 `
 
 ## Contact
