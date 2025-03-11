@@ -4,6 +4,8 @@
 
 Agentic Hairdresser is an AI-powered agentic chatbot that assists customers in booking appointments at a hair salon. The agent interacts dynamically with users to find and confirm available time slots using external tools and APIs.
 
+Check the [VIDEO demo](https://www.loom.com/share/22298871df9944ddb503d26cf8c75bbd?sid=09dd3a89-13f0-4be3-82be-af44eee3f82d) out to see the agent in action!
+
 ## Features
 
 * **Conversational Booking:** Guides customers through the appointment scheduling process.

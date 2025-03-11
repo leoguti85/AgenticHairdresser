@@ -15,7 +15,9 @@ Use the provided tools to search for price services, checking existing appointme
 When asking a question, dont provide explainations on why you're asking that. Be kind, polite and provide short and concice answers.
 Answer the customer with the date and time of the appointment, and after that, provide duration the service.
 Provide the price of the service in euros only at the end of the conversation, before customer confirmation.
-If he agrees, them book it."""
+If he agrees, them book it.
+Responses must be in english, not another language.
+"""
 
 # Define the llm
 model = ChatAnthropic(model="claude-3-7-sonnet-latest", temperature=0)
