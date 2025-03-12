@@ -56,7 +56,7 @@ docker buildx build -f Dockerfile -t awesome-hairdresser-app .
 `
 run it:
 `
-docker run --rm --gpus all  awesome-hairdresser-app
+docker run --rm -it --device /dev/snd -e PULSE_SERVER=unix:$XDG_RUNTIME_DIR/pulse/native -v $XDG_RUNTIME_DIR/pulse/native:$XDG_RUNTIME_DIR/pulse/native -v ~/.config/pulse/cookie:/root/.config/pulse/cookie --gpus all awesome-hairdresser-app
 `
 
 ## Contact
