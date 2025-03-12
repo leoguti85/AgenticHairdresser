@@ -10,6 +10,8 @@ AWESOME_id = os.environ["GOOGLE_ID"]
 
 
 def get_credentials():
+    # Google athentication file. To be created in the Google Cloud Console:
+    # https://developers.google.com/identity/protocols/oauth2
     SERVICE_ACCOUNT_FILE = "service-account.json"
 
     creds = service_account.Credentials.from_service_account_file(

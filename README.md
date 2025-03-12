@@ -48,9 +48,12 @@ To run the agent, ensure you have:
 
 * Python installed
 * API keys for Antrophic Claude Sonnet and Eleven Labs
+* A Google API .json token for [authentication](https://developers.google.com/identity/protocols/oauth2) (allowing your app to use Google Calendar API).
 
 
 Build the Docker image:
+
+
 `
 docker buildx build -f Dockerfile -t awesome-hairdresser-app .
 `
